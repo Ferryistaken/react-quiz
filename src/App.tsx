@@ -111,7 +111,7 @@ function App() {
         userAnswers.length === number + 1 &&
         number !== TOTAL_QUESTIONS - 1 ? (
           <div className="relative group">
-            <div className="absolute inset-0 opacity-75 bg-gradient-to-r from-purple-600 via-cyan-600 to-blue-400 rounded-lg px-7 py-4 mr-64 blur group-hover:opacity-100 transition duration-800"></div>
+            <div className="absolute inset-0 opacity-75 bg-gradient-to-r from-purple-600 via-cyan-600 to-blue-400 rounded-lg px-7 py-4 max-w-[180px] blur group-hover:opacity-100 transition duration-800"></div>
             <button
               className="relative px-7 py-4 bg-black rounded-lg leading-none "
               onClick={nextQuestion}
